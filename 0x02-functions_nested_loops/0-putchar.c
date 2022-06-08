@@ -10,10 +10,10 @@ int main(void)
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
-	-putchar('h');
+	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putcher('\n');
+	_putchar('\n');
 
 	return (0);
 }	
