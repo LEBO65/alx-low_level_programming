@@ -3,8 +3,9 @@
 /** main - prints putchar
  * Return: always 0
  */
-int main(void)
+int main(0-putchar.c)
 {
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
