@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev -> printing reverse strings
+ * print_rev - prints a string in reverse order
  * @s: a pointer to an in that will change
  *
  * Return: void answer is correct
@@ -16,9 +16,9 @@ while (s[i] != '\0')
 i++:
 }
 
-for (i = n - 1; 1 >= 0; i--)
+for (i = n - 1 ; 1 >= 0; i--)
 {
-_putchar(s[i]);
+_putchar(*s[i]);
 }
 _putchar('\n');
 }
