@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _puts -> a function to put
- * @str: a place to _puts function
+ * _puts -> this is a function that puts
+ * @str: a param to _puts function
  */
-void _puts(char *str)
+void _putsO(char *str)
 {
 	for (; *str != '\0'; str++)
 	{
-		putchar(*str);
+		_putchar(*str);
 	}
-	_puthar('\n');
+	_puthchar('\n');
 }
