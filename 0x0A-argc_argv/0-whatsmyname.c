@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - Entry
+ * main -> its prints a name
  * @argc: size of argv array
- * @argv: array of size argc
- * Return: Always 0 Sucess
+ * @argv: an array of command listed
+ * Return: Always 0 Success
  */
 int main(int argc, char *argv[])
 {
