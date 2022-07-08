@@ -5,19 +5,19 @@
  * array_iterator - executes a function given
  * as a parameter on each element of an array
  * @array: array
- * @size: how much elements to print
+ * @size: how many elements to print
  * @action: pointer to function
  * Return: Void
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	unsigned int X;
+	unsigned int i;
 
 	if (array == NULL)
 		return;
 	if (action == NULL)
 		return;
 
-	for (X = 0; X < size; X++)
-		action(array[X]);
+	for (i = 0; i < size; i++)
+		action(array[i]);
 }
