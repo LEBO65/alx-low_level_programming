@@ -1,22 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * flip_bits - swap bits
- * @n: integer 1
- * @m: index 2
+ * main - check the code
  *
- * Return: unsigned int
+ * Return: Always 0.
  */
-
-unsigned int flip_bits(unsigned long int n, unsigned long int m)
+int main(void)
 {
-unsigned long int auxiliar = n ^ m, i = 0;
+    unsigned int n;
 
-while ((auxiliar ^ 0))
-{
-if ((auxiliar & 1) != 0)
-i++;
-auxiliar = i >> 1;
-}
-return (i);
+    n = flip_bits(1024, 1);
+    printf("%u\n", n);
+    n = flip_bits(402, 98);
+    printf("%u\n", n);
+    n = flip_bits(1024, 3);
+    printf("%u\n", n);
+    n = flip_bits(1024, 1025);
+    printf("%u\n", n);
+    return (0);
 }
